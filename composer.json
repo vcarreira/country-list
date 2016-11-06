@@ -1,0 +1,29 @@
+{
+    "name": "vcarreira/country-list",
+    "description": "Ease access to localized countries provided by umpirsky package",
+    "type": "library",
+    "keywords": ["laravel", "laravel 5", "countries", "country list"],
+    "homepage": "http://github.com/vcarreira/country-list",
+    "require": {
+        "php": ">= 5.5.9",
+        "illuminate/support": "~5.1",
+        "umpirsky/country-list": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Carreira",
+            "email": "vitor.carreira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CountryList\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
