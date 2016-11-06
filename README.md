@@ -26,7 +26,7 @@ In `/config/app.php`, add the following to `providers`:
   and the following to `aliases`:
 
   ```
-  'CountryList' => CountryList\Facades\CountryList::class,
+  'CountryList' => CountryList\Facades\CountryListFacade::class,
   ```
 
 ## Usage
