@@ -6,7 +6,7 @@
     "homepage": "http://github.com/vcarreira/country-list",
     "require": {
         "php": ">= 5.5.9",
-        "illuminate/support": "~5.1",
+        "illuminate/support": "~5.1|^6.0",
         "umpirsky/country-list": "^2.0"
     },
     "license": "MIT",
